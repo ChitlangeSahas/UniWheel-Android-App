@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Unicycle</string>
+
+    <string name="connect_text">Connect</string>
+    <string name="connect_image_description">Connect Image</string>
+    <string name="ssid">Unicycle</string>
+    <string name="key">123456789</string>
+    <string name="connectionFailureText">Connection Failed, Try again.</string>
+    <string name="connectionSuccessText">Connection Successful.</string>
+    <string name="URL">http://192.168.4.1/</string>
+
+    <string name="Voltage">Battery Voltage</string>
+    <string name="DutyCycle">Duty Cycle</string>
+    <string name="Current">Avg Current</string>
+    <string name="Temperature">Temperature</string>
+
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+</resources>

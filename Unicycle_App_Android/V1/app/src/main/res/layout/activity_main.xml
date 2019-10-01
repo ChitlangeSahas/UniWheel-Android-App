@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/image_logo"
+            android:layout_height="400dp"
+            android:padding="20dp"
+            app:srcCompat="@drawable/ic_unicycle"
+            />
+
+        <Button
+            android:id="@+id/connectButton"
+            android:layout_below="@+id/image_logo"
+            android:layout_centerInParent="true"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:elevation="2dp"
+            android:text="Connect"
+            android:textColor="@android:color/background_light"
+            android:backgroundTint="@color/colorPrimary"
+            android:contentDescription="@string/connect_image_description"
+            app:srcCompat="@drawable/outline_wifi_black_48"
+            tools:srcCompat="@drawable/outline_wifi_black_48" />
+
+        <ProgressBar
+            android:id="@+id/connectProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_height="12dp"
+            android:indeterminateOnly="true" />
+
+</RelativeLayout>
